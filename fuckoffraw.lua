@@ -3,7 +3,10 @@
 
 -- Instances:
 
+local pass = "suss"
 
+
+ 
 if game.Players.LocalPlayer.PlayerGui:FindFirstChild("asasa") then
 game.Players.LocalPlayer.PlayerGui.asasa:Destroy()
 end
@@ -166,7 +169,7 @@ local function NIZS_fake_script() -- TextButton.LocalScript
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.TextBox.Text == loadstring(game:HttpGet("https://github.com/Skrrtz/testload/blob/main/prowordlol.lua", true))() then
+		if script.Parent.Parent.TextBox.Text == pass then
 if game.Players.LocalPlayer.PlayerGui:FindFirstChild("HUBBBB") then
 game.Players.LocalPlayer.PlayerGui.HUBBBB:Destroy()
 end
